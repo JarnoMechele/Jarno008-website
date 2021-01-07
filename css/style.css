@@ -1,0 +1,75 @@
+body {
+  background-color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  margin: auto;
+  background-color: gray;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+.topbar ul li:hover {
+  color: black;
+}
+
+.topbar ul {
+  margin-left: 1200px;
+}
+
+.topbar ul li {
+  display: inline;
+  margin-right: 30px;
+  background-color: green;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  justify-content: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: gray;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.listings {
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.listings ul {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.listings ul li{
+  list-style: none;
+}
+
+.listings :hover{
+  color: white;
+}
+
